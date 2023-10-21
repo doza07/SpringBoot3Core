@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(
 		scanBasePackages = {"com.doza.springcore",
-							"com.doza.util"}
+							"com.doza.other"}
 )
 public class SpringcoreApplication {
 
