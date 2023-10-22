@@ -13,7 +13,7 @@ public class DemoController {
 
 
     @Autowired
-    public void setMyCoach(@Qualifier("baseballCoach") Coach myCoachOne){
+    public void setMyCoach(@Qualifier("swimCoach") Coach myCoachOne){
         this.coachOne = myCoachOne;
         System.out.println("Create bean: " + getClass().getSimpleName());
     }
