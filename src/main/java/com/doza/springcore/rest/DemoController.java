@@ -15,6 +15,7 @@ public class DemoController {
     @Autowired
     public void setMyCoach(@Qualifier("baseballCoach") Coach myCoach) {
         this.myCoach = myCoach;
+        System.out.println("Create bean: " + getClass().getSimpleName());
     }
 
     @GetMapping("/dailyworkout")
